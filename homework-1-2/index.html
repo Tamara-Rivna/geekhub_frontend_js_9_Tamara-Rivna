@@ -16,16 +16,15 @@
                          <p> Пол: <input checked type="radio" name="gender" value="male"  /> мужской <input type="radio" name="gender" value="female"/>женский</p>
                      <p> <label > Возраст: </label> <input type="number" min="1" max="100" name="user_age" />лет</p> 
         </fieldset>
-        <br />
+        <p>
         <fieldset>
-             <legend><b> Подробнее о себе </b></legend>
-                  <p><input checked type="radio" name="man" /> Молодой человек</p>
+           <legend><b> Подробнее о себе </b></legend> 
+                  <div><input checked type="radio" name="man" /> Молодой человек</div>
                       <div> <input type="radio" name="woman" /> Девушка</div>
                             <div><input type="number" name="birth_date" /> Дата рождения</div>
                         <div> <input type="text" name="family_status" /> Семейное положение</div>
                     <div> <input type="text" name="social_status" />Социальный статус</div>
                  <div> <input type="text" name="residence" /> Местожительство</div>
-            <br />
             <p><b> Что вы обычно делаете на выходных?</b> </p>
                  <div><input type="checkbox" name="sleep" /> Сплю</div>
                      <div> <input type="checkbox" name="walking" />Гуляю с друзьями</div>
@@ -40,27 +39,23 @@
                     <div><input type="radio" />0-10</div>
                          <div> <input type="radio" />11-20</div>
                     <div> <input type="radio"  />21-50</div>
-                <div> <input type="radio"  />50+</div>
-             <br />
+                <p> <input type="radio"  />50+</p>
             <div><b>Ваши коментарии:</b></div>
-                 <textarea name="text" id="comments" cols="50" rows="10"></textarea>
-                     <br />
+                <p> <textarea name="text" id="comments" cols="50" rows="10"></textarea></p>        
             <select size="3">
                 <option value="first_position">Первая позиция</option>
                 <option selected value="second_position">Вторая позиция</option>
                 <option value="third_position">Третья позиция</option>
             </select>
         </fieldset>
-        <br />
+    </p>
     <fieldset>
         <legend> <b> И в заключении: </b> </legend>
               <p> <input placeholder="Это поле было введено до вас" type="text" /></p>
-                     <div><b>Email:</b></div>
-                         <div> <input type="email" name="email" /></div>
-                            <br />
-                             <div><b>Хотите подписаться на самую модную рассилку спама?</b></div>
-                                 <div><i>Выберите категории</i></div>
-                                     <br/>
+                   <p><div><b>Email:</b></div>
+                         <div> <input type="email" name="email" /></div></p> 
+                             <p><div><b>Хотите подписаться на самую модную рассилку спама?</b></div>
+                                 <div><i>Выберите категории</i></div></p>   
                                   <div><input type="checkbox" name="equipment" /> Оборудование</div>
                              <div> <input type="checkbox" name="lunch"/>Как приготовить обеды</div>
                         <div> <input type="checkbox" name="money" />Заработай миллион за два дня!</div>
@@ -69,8 +64,9 @@
                              <div> <input type="radio"  />Так себе</div>
                                   <div> <input type="radio"  />Еле справились</div>
     </fieldset> 
-<br />
+    <p>
         <button type="submit" value="send">Отправить</button>
+         </p>
             </form>  
 </body>
 </html>
